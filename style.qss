@@ -1,0 +1,48 @@
+* {
+    font-family: Poppins, sans-serif;
+    color: #333333;
+}
+QPlainTextEdit, QTextEdit {
+    background-color: transparent;
+    color: #333333;
+    font-family: Poppins, sans-serif;
+    selection-background-color: slateblue;
+    selection-color: #FFFFFF;
+    border-radius: 5px;
+}
+QPushButton {
+    background-color: #31363B;
+    color: #FFFFFF;
+    border: 1px solid #76797C;
+    font-family: Poppins;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+}
+QPushButton:hover {
+    background-color: slateblue;
+    border: 1px solid #3D3D3D;
+}
+QPushButton:disabled {
+    background-color: #76797C;
+    color: rgb(125,125,125);
+}
+QPushButton:pressed {
+    background-color: #76797C;
+    border-style: inset;
+}
+QWidget {
+    color: #FFFFFF;
+    font-family: Poppins, sans-serif;
+    background-color: transparent;
+}
+QSplitter::handle {
+    background-color: #76797C;
+}
+QMenuBar {
+    background-color: #323232;
+}
+QMenuBar::item:selected {
+    background-color: #3D3D3D;
+}
